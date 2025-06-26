@@ -11,7 +11,7 @@ cd mf-remote
 pnpm install
 
 # Start development servers
-pnpm dev
+pnpm start
 ```
 
 ### 🌐 Access the Applications
