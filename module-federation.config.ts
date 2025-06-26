@@ -2,7 +2,8 @@ export const mfConfig = {
   name: "remote",
   filename: "remoteEntry.js",
   exposes: {
-    "./App": "./src/App.tsx",
+    "./Button": "./src/components/Button.tsx",
+    "./Card": "./src/components/Card.tsx",
   },
   shared: ["react", "react-dom"],
 };

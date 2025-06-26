@@ -2,11 +2,18 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 
 import "./index.css";
+import { Card } from "./components/Card";
+import { Button } from "./components/Button";
 
 const App = () => (
   <div className="mt-10 text-3xl mx-auto max-w-6xl">
     <div>Name: remote</div>
-    <div>Framework: react-18</div>
+    <div className="flex flex-col gap-4">
+      <Card title="Demo Card">
+        This is the Card component that can be imported by other apps!
+      </Card>
+      <Button>Click me</Button>
+    </div>
   </div>
 );
 
