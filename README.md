@@ -1,1 +1,19 @@
-# mf-remote
+# Module Federation - remote
+
+### Installation
+
+```bash
+# Clone the repository
+git clone https://github.com/vitorlsouza/mf-remote.git
+cd mf-app
+
+# Install dependencies
+pnpm install
+
+# Start development servers
+pnpm dev
+```
+
+### 🌐 Access the Applications
+
+- Remote**: http://localhost:8081
