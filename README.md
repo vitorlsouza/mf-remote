@@ -5,7 +5,7 @@
 ```bash
 # Clone the repository
 git clone https://github.com/vitorlsouza/mf-remote.git
-cd mf-app
+cd mf-remote
 
 # Install dependencies
 pnpm install
@@ -16,4 +16,4 @@ pnpm dev
 
 ### 🌐 Access the Applications
 
-- Remote**: http://localhost:8081
+- Remote\*\*: http://localhost:8081
