@@ -1,11 +1,12 @@
 import React from "react";
+import '../index.css';
 
 export interface CardProps {
   title?: string;
   children: React.ReactNode;
 }
 
-export const Card: React.FC<CardProps> = ({ title, children }) => {
+const Card: React.FC<CardProps> = ({ title, children }) => {
   return (
     <div
       className={`bg-white rounded-md p-4 shadow-md border border-gray-200 text-center`}
